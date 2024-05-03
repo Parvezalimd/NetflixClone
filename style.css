@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url(IMAGE/bg-img.jpg);
+    height: 100vh;
+    min-height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-size: max(100%, 170vh);
+    overflow: hidden;
+    
+}
+.main-after{
+    height: 100vh;
+    min-height: 50vh;
+    width: 100%;
+    position: absolute;
+    /* opacity: 0.7; */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-size: max(100%, 170vh);
+}
+
+
+.img{
+    display: flexbox;
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    position: relative;
+    z-index: 10;
+    
+}
+.nav-btn
+{
+    width: 80vw;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.header{
+    display: flex;
+    position: relative;
+    top: 20px;
+    /* z-index: 2; */
+}
+
+.btn1{
+    padding: 8px 40px; 
+    margin-right: 7px; 
+    font-size: 16px; 
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 100%;
+    filter: brightness(1);
+    background-color: aliceblue;
+    border: none;
+}
+.btn2{
+    padding: 8px 20px; 
+    font-size: 16px; 
+    font-weight: 500; 
+    border-radius: 4px; 
+    background-color: red; 
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    filter: brightness(1);
+    border: none;
+    
+}
+
+.content{
+    text-align: center;
+    margin-top: 150px;
+    height: 15vh;
+
+}
+.h1{
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.p{
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.search-section{
+    height: 20vh;
+    text-align: center;
+    padding: 10px;
+}
+.p1{
+    color: aliceblue;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+.email-sec{
+    text-align: center;
+    padding: 10px;
+}
+.input{
+    background-color: aliceblue;
+    height: 30px;
+    width: 15vw;
+    border: none;
+    border-radius: 4px;
+}
+.email-btn{
+    background-color: red;
+    color: aliceblue;
+    height: 30px;
+    width: 110px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* style for page2 */
+
+.second-page{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    background-size: max(100%, 170vh);
+}
+.bloock{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: max(100%, 170vh);
+}
+.text-area{
+    width: 50%;
+    padding: 110px;
+    
+}
+.text-area h1{
+    color: aliceblue;
+    font-size: 3rem;
+}
+.text-area p{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.video1{
+    width: 50%;
+    padding: 110px;
+    text-align: center;
+    position: relative;
+}
+.video-img{
+    height: auto;
+    width: 70%;
+    position: relative;
+    border-radius: 4px;
+}
+.img-video1{
+    position: absolute;
+    width: 35%;
+    height: 46%;
+    right: 31%;
+    top: 21%;
+    left: 32%;
+
+
+}
+
+/* style for page3 */
+
+.page3{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: max(100%, 170vh);
+}
+.pg3{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: max(100%, 170vh);
+    
+}
+.text2{
+    width: 50%;
+    height: auto;
+    padding: 90px;
+} 
+.text2 h1{
+    font-size: 4rem;
+    color: aliceblue;
+}
+.text2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.img2{
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
+    
+}
+
+.str{
+    height: 15vh;
+    width: 18%;
+    position: absolute;
+    background-color: black;
+    top: 60%;
+    float: top;
+    display: flex;
+    margin-left: 21%;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+/* Style for page4 */
+
+.img-video2{
+    position: absolute;
+    width: 35%;
+    height: 46%;
+    right: 31%;
+    top: 16%;
+    left: 31%;
+    z-index: 1;
+}
+.video-img2{
+    height: 40vh;
+    width: 30vw;
+    position: relative;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+/* page6 */
+.page6{
+    height: 80vh;
+    width: 100%;
+}
+.FQA{
+    width: 60vw;
+    padding: 10px;
+    margin-left: 15%;
+    display: grid;
+    gap: 20px;
+}
+.page6 h1{
+    color: aliceblue;
+    font-family:  'Open Sans', sans-serif;
+}
+.QA{
+    color: aliceblue;
+    display: block;
+    font-family:  'Open Sans', sans-serif;
+    background-color: rgba(35, 32, 32, 0.886);
+    padding: 1% 5%;
+    height: 8vh;
+    width: 60vw;
+    
+}
+
+@media screen and (max-device-width: 320px) {
+    .logo{
+        max-height: 7vh;
+    }
+    .nav-btn{
+        max-width: 40vw;
+        /* justify-content: center;
+        text-align: center;
+        justify-items: center; */
+    }
+    .img{
+        max-width: fit-content;
+    }
+    .btn1{
+        max-width: 30px;
+        font-size: 10px;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .btn2{
+        max-width: 50px;
+        font-size: 10px;
+        /* padding:  2px 15px; */
+        padding-left: 10px;
+        padding: 6px 8px;
+    }
+    .content{
+        display: block;
+        position: relative;
+        height: 5vh;
+    }
+    .h1{
+        font-size: 1.9em;
+        /* position: absolute; */
+
+    }
+    .p1{
+        margin-top: -10%;
+    }
+}
